@@ -1,38 +1,36 @@
 
-const App = () => {
+
+import Navigation from './Components/Navigation/Navigation';
+import SearchForm from './Components/SearchForm/SearchForm';
+import UserDash from './Components/UserDash/UserDash';
+import ProductCard from './Components/ProductCard/ProductCard';
+
+
+
+
+import './App.css';
+
+
+function App() {
   return (
-    <div className="catagories-coontainer">
-      <div classname="catagory-container">
-        {/* <img />*/ }
-        <div>
-          <div className="category-body-container">
-            <h2>Product</h2>
-            <p>Shop Now</p>
-          </div>
-        </div>
-      </div>
+    <div className="App">
+   
+      <Navigation />
+       <SearchForm />
+       <UserDash />
+       <ProductCard />
 
-      <div classname="catagory-container">
-        {/* <img />*/ }
-        <div>
-          <div className="category-body-container">
-            <h2>Product</h2>
-            <p>Shop Now</p>
-          </div>
-        </div>
-      </div>
 
-      <div classname="catagory-container">
-        {/* <img />*/ }
-        <div>
-          <div className="category-body-container">
-            <h2>Product</h2>
-            <p>Shop Now</p>
-          </div>
-        </div>
-      </div>
-    </div>
+
+     {/*  <Home />
+      <Travel />
+      <Product />
+      <UserSearchHistory />
+  <Footer />*/}
+
+
+   </div>
   );
-};
+}
 
 export default App;
