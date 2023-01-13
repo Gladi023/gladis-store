@@ -8,16 +8,20 @@ import ProductCard from './Components/ProductCard/ProductCard';
 
 
 
+
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
+     
    
       <Navigation />
        <SearchForm />
        <UserDash />
+       <br></br>
+       <br></br>
        <ProductCard />
 
 

@@ -1,13 +1,21 @@
 import React from 'react';
 import hat from '../images/hat.jpeg'
+import crown from '../images/crown.jpeg'
 
 const ProductCard = ({ name, id }) => {
   return (
-    <div>
-    <div className='tc grow bg-light-red br2 pa3 ma2 dib bw2 shadow-5'>
-      <img alt='hat' src={hat} class="o-50" />
+    <div style={{display: 'flex', justifyContent: 'center'}}>
+        
+    <div className='tc grow bg-black br2 pa3 ma2 dib bw2 shadow-5 w-20'>
+      <img alt='hat' src={hat} class="o-50 " />
       <div>
-        <h2>{'Product Form will go here'}</h2>
+        <h2>{'Hat'}</h2>
+      </div>
+    </div>
+    <div className='tc grow bg-black br2 pa3 ma2 dib bw2 shadow-5 w-20'>
+      <img alt='hat' src={crown} class="o-50 " />
+      <div>
+        <h2>{'Crown'}</h2>
       </div>
     </div>
 

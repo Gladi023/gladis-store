@@ -2,12 +2,9 @@ import React from 'react';
 
 const UserDash = () => {
     return (
-        <div>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
             <div className='white f3'>
-                {'Hello User'}
-            </div>
-            <div className='white f3'>
-                {'...blah blah blah...'}
+                {'Shop here for hats and crowns'}
             </div>
         </div>
     );
