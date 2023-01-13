@@ -1,40 +1,18 @@
 
-
-import Navigation from './Components/Navigation/Navigation';
-import SearchForm from './Components/SearchForm/SearchForm';
-import UserDash from './Components/UserDash/UserDash';
-import ProductCard from './Components/ProductCard/ProductCard';
-
-
-
+import { Routes, Route } from 'react-router-dom'
+import Home from './routes/home/home.component';
+// import Navigation from './Components/Navigation/Navigation';
+// import SearchForm from './Components/SearchForm/SearchForm';
+// import UserDash from './Components/UserDash/UserDash';
+// import ProductCard from './Components/ProductCard/ProductCard';
 
 
-import './App.css';
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     
-   
-      <Navigation />
-       <SearchForm />
-       <UserDash />
-       <br></br>
-       <br></br>
-       <ProductCard />
-
-
-
-     {/*  <Home />
-      <Travel />
-      <Product />
-      <UserSearchHistory />
-  <Footer />*/}
-
-
-   </div>
+  <Routes>
+    <Route path='/' element={<Home />} />
+  </Routes> 
   );
-}
+};
 
 export default App;
