@@ -12,7 +12,7 @@ Deploy the website and navigate through the website.
 
 ## Usage
 1. The website can be deployed with the following link:
-https://morning-plateau-89149.herokuapp.com
+https://shielded-everglades-69100.herokuapp.com/ 
 2. After deploying the website the user can navigate through the website using the navigation bar. As shown below:
 ![Screenshot of first half of the website](./assets/images/home.png)
 
