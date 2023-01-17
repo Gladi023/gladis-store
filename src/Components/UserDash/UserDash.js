@@ -4,7 +4,7 @@ const UserDash = () => {
     return (
         <div style={{display: 'flex', justifyContent: 'center'}}>
             <div className='black f3'>
-                {'Shop here for hats and crowns'}
+                {'Shop here for apparel'}
             </div>
         </div>
     );
